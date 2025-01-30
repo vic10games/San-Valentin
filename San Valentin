@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz San Valentín</title>
+    <style>
+        body {
+            background-color: #ffe6e6;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #d6336c;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .rose {
+            width: 150px;
+            height: auto;
+            animation: bloom 2s ease-in-out;
+        }
+        @keyframes bloom {
+            from {
+                transform: scale(0);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        .message {
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #d6336c;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .button:hover {
+            background-color: #b32958;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://www.pngmart.com/files/7/Red-Rose-PNG-HD.png" alt="Rosa" class="rose">
+        <p class="message">Feliz San Valentín, mi amor ❤️</p>
+        <p class="message">Eres la persona más especial para mí y quiero invitarte a una cita inolvidable.</p>
+        <a href="#" class="button">¡Acepto la invitación!</a>
+    </div>
+
+</body>
+</html>
